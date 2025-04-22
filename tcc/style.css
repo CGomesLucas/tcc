@@ -1,0 +1,150 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100%;
+    background: linear-gradient(to bottom right, #4f80ff, #a666ff);
+  }
+  
+  /* Container principal */
+  .container {
+    width: 1313px;
+    height: 880px;
+    margin: 30px auto;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Seção da esquerda */
+  .left-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-section img {
+    width: 96%;
+    height: 96%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  /* Seção da direita */
+  .right-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Logo no topo direito */
+  .logo img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 60px;
+  }
+  
+  /* Título */
+  h2 {
+    font-size: 50px;
+    color: #002C57;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtítulo */
+  .right-section > p {
+    font-size: 25px;
+    color: #002C57;
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    width: 430px;
+    height: 75px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease;
+  }
+  
+  /* Hover */
+  .input-group:hover {
+    border: 2px solid #4E8098;
+  }
+  
+  .input-group:has(input:focus) {
+    border: 2px solid #4E8098;
+  }
+  
+  .input-group .icon img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 18px;
+  }
+  
+  /* Link "Esqueceu sua senha?" */
+  a.link {
+    font-size: 20px;
+    color: #002C57;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  /* Botão de entrar */
+  button {
+    width: 280px;
+    height: 75px;
+    background-color: #003366;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+
+  button a {
+    color: white;
+   text-decoration: none;
+}
+  
+  /* Cadastro */
+  .register {
+    font-size: 20px;
+    color: #002C57;
+  }
+  
+  .register a {
+    color: #6b2a44;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
